@@ -1,0 +1,94 @@
+{
+  "a:1GpyJNarzBjUeT780xBtDQ5o8KAqkXdo4patV4Wnql0QrxgoTu4wir_I9gm9JerjePXSYSpPTGJDyNtPQZri7pOyp070XR_LB7P5QlvrQnm8yG4JxE3xLQxet8hS77Wjj": {
+    "_respondedRef": {
+      "responded": false
+    },
+    "_turnState": {
+      "turn": {
+        "locale": "es-ES"
+      }
+    },
+    "_onSendActivities": [],
+    "_onUpdateActivity": [],
+    "_onDeleteActivity": [],
+    "_turn": "turn",
+    "_locale": "locale",
+    "bufferedReplyActivities": [],
+    "_adapter": {
+      "middleware": {
+        "middleware": [
+          null
+        ]
+      },
+      "botFrameworkAuthentication": {
+        "inner": {
+          "validateAuthority": true,
+          "toChannelFromBotLoginUrl": "https://login.microsoftonline.com/botframework.com",
+          "toChannelFromBotOAuthScope": "https://api.botframework.com",
+          "toBotFromChannelTokenIssuer": "https://api.botframework.com",
+          "oAuthUrl": "https://api.botframework.com",
+          "toBotFromChannelOpenIdMetadataUrl": "https://login.botframework.com/v1/.well-known/openidconfiguration",
+          "toBotFromEmulatorOpenIdMetadataUrl": "https://login.microsoftonline.com/common/v2.0/.well-known/openid-configuration",
+          "callerId": "urn:botframework:azure",
+          "credentialsFactory": {
+            "name": "ConfigurationServiceClientCredentialFactory",
+            "appId": "de74da08-0780-4192-844f-b6cbf7ea9878"
+          },
+          "authConfiguration": {
+            "requiredEndorsements": []
+          },
+          "connectorClientOptions": {}
+        }
+      }
+    },
+    "_activity": {
+      "text": "test",
+      "textFormat": "plain",
+      "attachments": [
+        {
+          "contentType": "text/html",
+          "content": "<p>test</p>"
+        }
+      ],
+      "type": "message",
+      "timestamp": "2024-01-12T16:07:16.851Z",
+      "localTimestamp": "2024-01-12T16:07:16.851Z",
+      "id": "1705075636826",
+      "channelId": "msteams",
+      "serviceUrl": "https://smba.trafficmanager.net/amer/",
+      "from": {
+        "id": "29:17H9ehWW5V0WoLJq0NBY4_UoU82Mq4xFn7qhgI-NipiCpaT805dIrHMeClrbMcyIkCAi61NFAfV_5PzymUQS1CQ",
+        "name": "Wilfer Zuluaga",
+        "aadObjectId": "1ed8247c-4595-4c20-8c86-96f3f7644c10"
+      },
+      "conversation": {
+        "conversationType": "personal",
+        "tenantId": "b5a014ee-7119-4b9b-9102-dc700ad22615",
+        "id": "a:1GpyJNarzBjUeT780xBtDQ5o8KAqkXdo4patV4Wnql0QrxgoTu4wir_I9gm9JerjePXSYSpPTGJDyNtPQZri7pOyp070XR_LB7P5QlvrQnm8yG4JxE3xLQxet8hS77Wjj"
+      },
+      "recipient": {
+        "id": "28:de74da08-0780-4192-844f-b6cbf7ea9878",
+        "name": "notifications-test"
+      },
+      "entities": [
+        {
+          "locale": "es-ES",
+          "country": "ES",
+          "platform": "Web",
+          "timezone": "America/Bogota",
+          "type": "clientInfo"
+        }
+      ],
+      "channelData": {
+        "tenant": {
+          "id": "b5a014ee-7119-4b9b-9102-dc700ad22615"
+        }
+      },
+      "locale": "es-ES",
+      "localTimezone": "America/Bogota",
+      "rawTimestamp": "2024-01-12T16:07:16.8513767Z",
+      "rawLocalTimestamp": "2024-01-12T11:07:16.8513767-05:00",
+      "callerId": "urn:botframework:azure"
+    }
+  }
+}

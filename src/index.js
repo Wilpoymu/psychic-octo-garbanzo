@@ -6,7 +6,7 @@ const restify = require("restify");
 const cron = require("cron");
 
 const scheduleNotification = new cron.CronJob(
-  "00 20 14 * * 1-5",
+  "00 55 15 * * 1-5",
   async () => {
     const pageSize = 100;
     let continuationToken = undefined;
@@ -26,7 +26,7 @@ const scheduleNotification = new cron.CronJob(
           notificationUrl: "https://aka.ms/teamsfx-notification-new",
         })
         );
-        console.log("🚀 ~ file: index.js:21 ~ installations:", installations)
+        // console.log("🚀 ~ file: index.js:21 ~ installations:", installations)
     }
   },
   null,
